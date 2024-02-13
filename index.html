@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto de Perfil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <input type="file" id="inputFoto" onchange="trocarFoto(this)" accept=".jpg,.png,.svg">
+                <img src="foto.png" alt="foto Usuario" id="fotoUsuario" onclick="document.getElementById('inputFoto').click()">
+            </li>
+            <li>Nome de usuario</li>
+            <li>Logout</li>
+        </ul>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>

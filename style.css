@@ -1,0 +1,36 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+nav{
+background-color: blue;
+padding: 10px;
+}
+ul{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+li{
+display: inline-block;
+}
+input{
+display: none;
+}
+
+#fotoUsuario{
+    width: 5em;
+    border-radius: 50%;
+}
+.userNamee{
+
+}
+.logout{
+    margin-left: 500px;
+}
